@@ -1,7 +1,7 @@
 import pymongo as pm
 import Conta_cliente as cc
 
-cliente = pm.MongoClient("mongodb+srv://santosmatheus1012:pyDeve@pydeve.nwayop0.mongodb.net/?retryWrites=true&w=majority&appName=pyDeve")
+cliente = pm.MongoClient("URL...")
 try:
     cliente.admin.command('ping')
     print("Sucesso conection")
